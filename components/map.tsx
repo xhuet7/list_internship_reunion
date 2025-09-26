@@ -7,7 +7,7 @@ const Map = () => {
   const position: LatLngExpression = [-21.114533, 55.532062];
 
   return (
-    <div className="flex justify-center items-center">
+    <div className="flex justify-center items-center py-9">
       <MapContainer
         center={position}
         zoom={11}
